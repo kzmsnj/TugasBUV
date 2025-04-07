@@ -51,6 +51,11 @@ main {
     main section:first-child {
         grid-column: 1 / span 2;
     }
+    
+    /* Make the last section (Hubungi Kami) span full width like Geografi */
+    main section:last-child {
+        grid-column: 1 / span 2;
+    }
 }
 
 section {
